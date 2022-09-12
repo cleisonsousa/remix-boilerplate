@@ -1,8 +1,8 @@
 {
-  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx", "jest.config.ts"],
   "compilerOptions": {
     "lib": ["DOM", "DOM.Iterable", "ES2019"],
-    "isolatedModules": true,
+    "isolatedModules": false,
     "esModuleInterop": true,
     "jsx": "react-jsx",
     "moduleResolution": "node",
