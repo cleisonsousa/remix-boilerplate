@@ -3,6 +3,6 @@ export default {
   collectCoverage: true,
   coverageDirectory: 'coverage',
   collectCoverageFrom: ['app/**/*.ts(x)'],
-  testPathIgnorePatterns: ['/node_modules/'],
+  testPathIgnorePatterns: ['/node_modules/', '/public/'],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts']
 }
